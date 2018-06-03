@@ -14,7 +14,7 @@ $npm run dev
 
 ### 使用
 
-1. 引入**src**文件下的`bicalendar.js` 和**docs**文件夹下的`bicalendar.css`
+1. 引入[bicalendar.js](http://cdn.pannnda.com/calendar/bicalendar.js) 和[bicalendar.css](http://cdn.pannnda.com/calendar/bicalendar.css)文件
 
 2. 插入HTML
 
