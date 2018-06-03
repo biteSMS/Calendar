@@ -2,7 +2,7 @@
 
 ### 演示地址
 
-[http://calendar.pannnda.com/](demo)
+[http://calendar.pannnda.com](demo)
 
 ### 启动
 
@@ -44,13 +44,16 @@ $npm run dev
        width: '300px',                   //宽度大小             (可选)
        height: '350px',                  //高度大小             (可选)
        background: '#fff',               //背景颜色             (可选)
-   	todo: true,                       //是否开启备忘录和闹钟  (可选)
+       todo: true,                       //是否开启备忘录和闹钟  (可选)
        color: '#000'                     //字体颜色             (可选)
    })
+
    //显示日历
    mycalendar.show()
+
    //关闭日历
    mycalendar.colse()
+
    //获取选中日期的年月日
    mycalendar.onDateSelected().then(res => {
        /*
