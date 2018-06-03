@@ -298,7 +298,7 @@ class biCalendar {
                         if (this.language.toLowerCase() === 'cn') {
                             alert('闹钟已经设置完毕!')
                         } else {
-                            alert('The alarm has been set!')
+                            alert('Alarm clock set successfully')
                         }
                     }
                 })
