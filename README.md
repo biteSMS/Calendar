@@ -2,7 +2,7 @@
 
 ### 演示地址
 
-[http://calendar.pannnda.com](demo)
+[demo](http://calendar.pannnda.com)
 
 ### 启动
 
