@@ -1,0 +1,153 @@
+.bi-calendar {
+    position: relative;
+    width: 350px;
+    height: 450px;
+    user-select: none;
+    border-radius: 5px;
+    background: #fff;
+    display: none;
+    flex-flow: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.bi-header {
+    width: 90%;
+    min-height: 12%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    padding: 0 5%;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .3);
+    button {
+        flex: 1;
+        border: none;
+        background: inherit;
+        color: inherit;
+        cursor: pointer;
+        font-size: 20px;
+        &:hover {
+            opacity: .5;
+        }
+    }
+    span {
+        flex: 10;
+        font-size: 18px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+.bi-container {
+    ol {
+        list-style: none outside;
+    }
+    padding: 0 5%;
+    width: 90%;
+    height: 80%;
+    span {
+        flex: 1;
+        text-align: center;
+        min-width: 14.285%;
+        max-width: 14.285%;
+    }
+    .bi-week {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-weight: 600;
+    }
+    .bi-date {
+        width: 100%;
+        height: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+        overflow-y: auto;
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 15%;
+
+            cursor: pointer;
+            &:hover {
+                background: rgb(102, 196, 233);
+                color: #fff;
+            }
+        }
+    }
+}
+
+.bi-date-today {
+    background: rgb(18, 162, 219);
+    color: #fff;
+}
+
+.bi-date-other {
+    color: rgb(189, 185, 185);
+}
+
+.bi-footer {
+    width: 100%;
+    height: 15%;
+    border-radius: 0 0 5px 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+        border: none;
+        background: inherit;
+        font-size: 24px;
+        cursor: pointer;
+        color: rgb(255, 126, 94);
+        &:hover {
+            color: rgb(253, 55, 6);
+        }
+    }
+}
+
+.bi-todo {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    textarea {
+        color: inherit;
+        resize: none;
+        width: 83.2%;
+        height: 60%;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+        padding: 6% 8%;
+        font-size: 20px;
+        font-weight: 600;
+        overflow-y: hidden;
+        background: rgba(255, 255, 255, .2);
+        &:hover {
+            background: rgba(255, 255, 255, .4);
+        }
+    }
+
+    svg {
+        cursor: pointer;
+        fill: rgb(255, 126, 94);
+        margin: 3% auto;
+        &:hover {
+            fill: rgb(253, 55, 6);
+        }
+    }
+}
+
+.bi-hour,.bi-min {
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    flex: 2;
+    background: rgba(255, 255, 255, .2);
+}
