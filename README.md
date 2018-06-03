@@ -2,7 +2,7 @@
 
 ### 演示地址
 
-[http://calendar.pannnda.com](demo)
+[http://calendar.pannnda.com/](demo)
 
 ### 启动
 
@@ -55,12 +55,14 @@ $npm run dev
    mycalendar.onDateSelected().then(res => {
        /*
        dosomthing...
-       document.querySelector('.xxxButton').addEventListener('click', () => alert(`${res.year}		年${res.month}月${res.date}日`))
+       document.querySelector('.xxxButton').addEventListener('click', () => alert(`${res.year}年${res.month}月${res.date}日`))
        */
    })
    ```
 
-   ### Todo
+   ​
 
-   - 假期高亮
-   - 导入ics文件
+###  Todo
+
+- 假期高亮
+- 导入ics文件
