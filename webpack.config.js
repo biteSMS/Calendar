@@ -15,7 +15,7 @@ module.exports = {
         index: './src/index.js'
     },
     output: {
-        path: path.resolve(__dirname, 'docs'),
+        path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
         publicPath: website.publicPath
     },
@@ -81,7 +81,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin()
     ],
     devServer: {
-        contentBase: './docs',
+        contentBase: './dist',
         host: 'localhost',
         port: 80,
         open: true,
